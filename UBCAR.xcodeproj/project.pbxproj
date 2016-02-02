@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6739CE7B1B5CDA1B00BD6906 /* ArchitectWorld in Resources */ = {isa = PBXBuildFile; fileRef = 6739CE7A1B5CDA1B00BD6906 /* ArchitectWorld */; };
+		6739CE7E1B5D476300BD6906 /* UBCARTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6739CE7D1B5D476300BD6906 /* UBCARTableViewController.m */; };
+		673C85861C2687E30051F2DB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 673C85851C2687E30051F2DB /* libc++.tbd */; };
+		673C85881C2687EA0051F2DB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 673C85871C2687EA0051F2DB /* libz.tbd */; };
+		673EF3C91B5C36830097DF9A /* UBCARMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EF3C81B5C36830097DF9A /* UBCARMapPoint.m */; };
+		673EF3CC1B5C5F570097DF9A /* UBCARPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 673EF3CB1B5C5F570097DF9A /* UBCARPointViewController.m */; };
+		676A1F641B586CF9005DB1BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1F631B586CF9005DB1BA /* main.m */; };
+		676A1F671B586CF9005DB1BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1F661B586CF9005DB1BA /* AppDelegate.m */; };
+		676A1F6A1B586CF9005DB1BA /* UBCAR_v4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 676A1F681B586CF9005DB1BA /* UBCAR_v4.xcdatamodeld */; };
+		676A1F6D1B586CF9005DB1BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1F6C1B586CF9005DB1BA /* ViewController.m */; };
+		676A1F701B586CF9005DB1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676A1F6E1B586CF9005DB1BA /* Main.storyboard */; };
+		676A1F721B586CF9005DB1BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676A1F711B586CF9005DB1BA /* Images.xcassets */; };
+		676A1F751B586CF9005DB1BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 676A1F731B586CF9005DB1BA /* LaunchScreen.xib */; };
+		676A1F811B586CF9005DB1BA /* UBCAR_v4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1F801B586CF9005DB1BA /* UBCAR_v4Tests.m */; };
+		676A1FA01B58B550005DB1BA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F8D1B58B550005DB1BA /* Accelerate.framework */; };
+		676A1FA11B58B550005DB1BA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F8E1B58B550005DB1BA /* AssetsLibrary.framework */; };
+		676A1FA21B58B550005DB1BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F8F1B58B550005DB1BA /* AVFoundation.framework */; };
+		676A1FA31B58B550005DB1BA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F901B58B550005DB1BA /* CFNetwork.framework */; };
+		676A1FA41B58B550005DB1BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F911B58B550005DB1BA /* CoreGraphics.framework */; };
+		676A1FA51B58B550005DB1BA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F921B58B550005DB1BA /* CoreLocation.framework */; };
+		676A1FA81B58B550005DB1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F951B58B550005DB1BA /* Foundation.framework */; };
+		676A1FA91B58B550005DB1BA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F961B58B550005DB1BA /* JavaScriptCore.framework */; };
+		676A1FAC1B58B550005DB1BA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F991B58B550005DB1BA /* MapKit.framework */; };
+		676A1FAD1B58B550005DB1BA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F9A1B58B550005DB1BA /* MediaPlayer.framework */; };
+		676A1FAE1B58B550005DB1BA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F9B1B58B550005DB1BA /* OpenGLES.framework */; };
+		676A1FAF1B58B550005DB1BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F9C1B58B550005DB1BA /* QuartzCore.framework */; };
+		676A1FB01B58B550005DB1BA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F9D1B58B550005DB1BA /* Security.framework */; };
+		676A1FB11B58B550005DB1BA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F9E1B58B550005DB1BA /* SystemConfiguration.framework */; };
+		676A1FB21B58B550005DB1BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F9F1B58B550005DB1BA /* UIKit.framework */; };
+		676A1FB51B58B571005DB1BA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1FB31B58B571005DB1BA /* CoreData.framework */; };
+		676A1FB61B58B571005DB1BA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1FB41B58B571005DB1BA /* CoreMedia.framework */; };
+		676A1FBC1B58C504005DB1BA /* UBCARListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1FBA1B58C504005DB1BA /* UBCARListTableViewController.m */; };
+		676A1FC01B58C98B005DB1BA /* UBCARAggregate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1FBF1B58C98B005DB1BA /* UBCARAggregate.m */; };
+		676A1FC81B58E152005DB1BA /* UBCARMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676A1FC71B58E152005DB1BA /* UBCARMapViewController.m */; };
+		67D928321B74783B0080D0A1 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 67D928311B74783B0080D0A1 /* images */; };
+		67DD49221C60F2D600BC0AF8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F931B58B550005DB1BA /* CoreMotion.framework */; };
+		67DD49231C60F2DF00BC0AF8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676A1F941B58B550005DB1BA /* CoreVideo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		676A1F7B1B586CF9005DB1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676A1F561B586CF9005DB1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676A1F5D1B586CF9005DB1BA;
+			remoteInfo = "UBCAR v4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6739CE7A1B5CDA1B00BD6906 /* ArchitectWorld */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ArchitectWorld; path = "UBCAR v4/ArchitectWorld"; sourceTree = "<group>"; };
+		6739CE7C1B5D476300BD6906 /* UBCARTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCARTableViewController.h; sourceTree = "<group>"; };
+		6739CE7D1B5D476300BD6906 /* UBCARTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBCARTableViewController.m; sourceTree = "<group>"; };
+		673C85851C2687E30051F2DB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		673C85871C2687EA0051F2DB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		673EF3C71B5C36830097DF9A /* UBCARMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCARMapPoint.h; sourceTree = "<group>"; };
+		673EF3C81B5C36830097DF9A /* UBCARMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBCARMapPoint.m; sourceTree = "<group>"; };
+		673EF3CA1B5C5F570097DF9A /* UBCARPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCARPointViewController.h; sourceTree = "<group>"; };
+		673EF3CB1B5C5F570097DF9A /* UBCARPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBCARPointViewController.m; sourceTree = "<group>"; };
+		676A1F5E1B586CF9005DB1BA /* UBCAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBCAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		676A1F621B586CF9005DB1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676A1F631B586CF9005DB1BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676A1F651B586CF9005DB1BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		676A1F661B586CF9005DB1BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		676A1F691B586CF9005DB1BA /* UBCAR_v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UBCAR_v4.xcdatamodel; sourceTree = "<group>"; };
+		676A1F6B1B586CF9005DB1BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		676A1F6C1B586CF9005DB1BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		676A1F6F1B586CF9005DB1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		676A1F711B586CF9005DB1BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		676A1F741B586CF9005DB1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		676A1F7A1B586CF9005DB1BA /* UBCARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBCARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676A1F7F1B586CF9005DB1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676A1F801B586CF9005DB1BA /* UBCAR_v4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBCAR_v4Tests.m; sourceTree = "<group>"; };
+		676A1F8D1B58B550005DB1BA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		676A1F8E1B58B550005DB1BA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		676A1F8F1B58B550005DB1BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		676A1F901B58B550005DB1BA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		676A1F911B58B550005DB1BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		676A1F921B58B550005DB1BA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		676A1F931B58B550005DB1BA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		676A1F941B58B550005DB1BA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		676A1F951B58B550005DB1BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		676A1F961B58B550005DB1BA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		676A1F991B58B550005DB1BA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		676A1F9A1B58B550005DB1BA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		676A1F9B1B58B550005DB1BA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		676A1F9C1B58B550005DB1BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		676A1F9D1B58B550005DB1BA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		676A1F9E1B58B550005DB1BA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		676A1F9F1B58B550005DB1BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		676A1FB31B58B571005DB1BA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		676A1FB41B58B571005DB1BA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		676A1FB91B58C504005DB1BA /* UBCARListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCARListTableViewController.h; sourceTree = "<group>"; };
+		676A1FBA1B58C504005DB1BA /* UBCARListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBCARListTableViewController.m; sourceTree = "<group>"; };
+		676A1FBE1B58C98B005DB1BA /* UBCARAggregate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCARAggregate.h; sourceTree = "<group>"; };
+		676A1FBF1B58C98B005DB1BA /* UBCARAggregate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBCARAggregate.m; sourceTree = "<group>"; };
+		676A1FC61B58E152005DB1BA /* UBCARMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBCARMapViewController.h; sourceTree = "<group>"; };
+		676A1FC71B58E152005DB1BA /* UBCARMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBCARMapViewController.m; sourceTree = "<group>"; };
+		67D928311B74783B0080D0A1 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676A1F5B1B586CF9005DB1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67DD49231C60F2DF00BC0AF8 /* CoreVideo.framework in Frameworks */,
+				67DD49221C60F2D600BC0AF8 /* CoreMotion.framework in Frameworks */,
+				673C85881C2687EA0051F2DB /* libz.tbd in Frameworks */,
+				673C85861C2687E30051F2DB /* libc++.tbd in Frameworks */,
+				676A1FB51B58B571005DB1BA /* CoreData.framework in Frameworks */,
+				676A1FB61B58B571005DB1BA /* CoreMedia.framework in Frameworks */,
+				676A1FA01B58B550005DB1BA /* Accelerate.framework in Frameworks */,
+				676A1FA11B58B550005DB1BA /* AssetsLibrary.framework in Frameworks */,
+				676A1FA21B58B550005DB1BA /* AVFoundation.framework in Frameworks */,
+				676A1FA31B58B550005DB1BA /* CFNetwork.framework in Frameworks */,
+				676A1FA41B58B550005DB1BA /* CoreGraphics.framework in Frameworks */,
+				676A1FA51B58B550005DB1BA /* CoreLocation.framework in Frameworks */,
+				676A1FA81B58B550005DB1BA /* Foundation.framework in Frameworks */,
+				676A1FA91B58B550005DB1BA /* JavaScriptCore.framework in Frameworks */,
+				676A1FAC1B58B550005DB1BA /* MapKit.framework in Frameworks */,
+				676A1FAD1B58B550005DB1BA /* MediaPlayer.framework in Frameworks */,
+				676A1FAE1B58B550005DB1BA /* OpenGLES.framework in Frameworks */,
+				676A1FAF1B58B550005DB1BA /* QuartzCore.framework in Frameworks */,
+				676A1FB01B58B550005DB1BA /* Security.framework in Frameworks */,
+				676A1FB11B58B550005DB1BA /* SystemConfiguration.framework in Frameworks */,
+				676A1FB21B58B550005DB1BA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676A1F771B586CF9005DB1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676A1F551B586CF9005DB1BA = {
+			isa = PBXGroup;
+			children = (
+				673C85871C2687EA0051F2DB /* libz.tbd */,
+				673C85851C2687E30051F2DB /* libc++.tbd */,
+				6739CE7A1B5CDA1B00BD6906 /* ArchitectWorld */,
+				676A1FB31B58B571005DB1BA /* CoreData.framework */,
+				676A1FB41B58B571005DB1BA /* CoreMedia.framework */,
+				676A1F8D1B58B550005DB1BA /* Accelerate.framework */,
+				676A1F8E1B58B550005DB1BA /* AssetsLibrary.framework */,
+				676A1F8F1B58B550005DB1BA /* AVFoundation.framework */,
+				676A1F901B58B550005DB1BA /* CFNetwork.framework */,
+				676A1F911B58B550005DB1BA /* CoreGraphics.framework */,
+				676A1F921B58B550005DB1BA /* CoreLocation.framework */,
+				676A1F931B58B550005DB1BA /* CoreMotion.framework */,
+				676A1F941B58B550005DB1BA /* CoreVideo.framework */,
+				676A1F951B58B550005DB1BA /* Foundation.framework */,
+				676A1F961B58B550005DB1BA /* JavaScriptCore.framework */,
+				676A1F991B58B550005DB1BA /* MapKit.framework */,
+				676A1F9A1B58B550005DB1BA /* MediaPlayer.framework */,
+				676A1F9B1B58B550005DB1BA /* OpenGLES.framework */,
+				676A1F9C1B58B550005DB1BA /* QuartzCore.framework */,
+				676A1F9D1B58B550005DB1BA /* Security.framework */,
+				676A1F9E1B58B550005DB1BA /* SystemConfiguration.framework */,
+				676A1F9F1B58B550005DB1BA /* UIKit.framework */,
+				676A1F601B586CF9005DB1BA /* UBCAR v4 */,
+				676A1F7D1B586CF9005DB1BA /* UBCAR v4Tests */,
+				676A1F5F1B586CF9005DB1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		676A1F5F1B586CF9005DB1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676A1F5E1B586CF9005DB1BA /* UBCAR.app */,
+				676A1F7A1B586CF9005DB1BA /* UBCARTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		676A1F601B586CF9005DB1BA /* UBCAR v4 */ = {
+			isa = PBXGroup;
+			children = (
+				676A1F651B586CF9005DB1BA /* AppDelegate.h */,
+				676A1F661B586CF9005DB1BA /* AppDelegate.m */,
+				676A1F6B1B586CF9005DB1BA /* ViewController.h */,
+				676A1F6C1B586CF9005DB1BA /* ViewController.m */,
+				676A1F6E1B586CF9005DB1BA /* Main.storyboard */,
+				676A1FBE1B58C98B005DB1BA /* UBCARAggregate.h */,
+				676A1FBF1B58C98B005DB1BA /* UBCARAggregate.m */,
+				676A1FB91B58C504005DB1BA /* UBCARListTableViewController.h */,
+				676A1FBA1B58C504005DB1BA /* UBCARListTableViewController.m */,
+				676A1FC61B58E152005DB1BA /* UBCARMapViewController.h */,
+				676A1FC71B58E152005DB1BA /* UBCARMapViewController.m */,
+				673EF3CA1B5C5F570097DF9A /* UBCARPointViewController.h */,
+				673EF3CB1B5C5F570097DF9A /* UBCARPointViewController.m */,
+				673EF3C71B5C36830097DF9A /* UBCARMapPoint.h */,
+				673EF3C81B5C36830097DF9A /* UBCARMapPoint.m */,
+				6739CE7C1B5D476300BD6906 /* UBCARTableViewController.h */,
+				6739CE7D1B5D476300BD6906 /* UBCARTableViewController.m */,
+				676A1F711B586CF9005DB1BA /* Images.xcassets */,
+				676A1F731B586CF9005DB1BA /* LaunchScreen.xib */,
+				676A1F681B586CF9005DB1BA /* UBCAR_v4.xcdatamodeld */,
+				67D928311B74783B0080D0A1 /* images */,
+				676A1F611B586CF9005DB1BA /* Supporting Files */,
+			);
+			path = "UBCAR v4";
+			sourceTree = "<group>";
+		};
+		676A1F611B586CF9005DB1BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676A1F621B586CF9005DB1BA /* Info.plist */,
+				676A1F631B586CF9005DB1BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		676A1F7D1B586CF9005DB1BA /* UBCAR v4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				676A1F801B586CF9005DB1BA /* UBCAR_v4Tests.m */,
+				676A1F7E1B586CF9005DB1BA /* Supporting Files */,
+			);
+			path = "UBCAR v4Tests";
+			sourceTree = "<group>";
+		};
+		676A1F7E1B586CF9005DB1BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				676A1F7F1B586CF9005DB1BA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676A1F5D1B586CF9005DB1BA /* UBCAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676A1F841B586CF9005DB1BA /* Build configuration list for PBXNativeTarget "UBCAR" */;
+			buildPhases = (
+				676A1F5A1B586CF9005DB1BA /* Sources */,
+				676A1F5B1B586CF9005DB1BA /* Frameworks */,
+				676A1F5C1B586CF9005DB1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UBCAR;
+			productName = "UBCAR v4";
+			productReference = 676A1F5E1B586CF9005DB1BA /* UBCAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		676A1F791B586CF9005DB1BA /* UBCARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676A1F871B586CF9005DB1BA /* Build configuration list for PBXNativeTarget "UBCARTests" */;
+			buildPhases = (
+				676A1F761B586CF9005DB1BA /* Sources */,
+				676A1F771B586CF9005DB1BA /* Frameworks */,
+				676A1F781B586CF9005DB1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676A1F7C1B586CF9005DB1BA /* PBXTargetDependency */,
+			);
+			name = UBCARTests;
+			productName = "UBCAR v4Tests";
+			productReference = 676A1F7A1B586CF9005DB1BA /* UBCARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676A1F561B586CF9005DB1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Nathan Sidles";
+				TargetAttributes = {
+					676A1F5D1B586CF9005DB1BA = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SC4UC5VRAG;
+					};
+					676A1F791B586CF9005DB1BA = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 676A1F5D1B586CF9005DB1BA;
+					};
+				};
+			};
+			buildConfigurationList = 676A1F591B586CF9005DB1BA /* Build configuration list for PBXProject "UBCAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676A1F551B586CF9005DB1BA;
+			productRefGroup = 676A1F5F1B586CF9005DB1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676A1F5D1B586CF9005DB1BA /* UBCAR */,
+				676A1F791B586CF9005DB1BA /* UBCARTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676A1F5C1B586CF9005DB1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D928321B74783B0080D0A1 /* images in Resources */,
+				676A1F701B586CF9005DB1BA /* Main.storyboard in Resources */,
+				676A1F751B586CF9005DB1BA /* LaunchScreen.xib in Resources */,
+				6739CE7B1B5CDA1B00BD6906 /* ArchitectWorld in Resources */,
+				676A1F721B586CF9005DB1BA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676A1F781B586CF9005DB1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676A1F5A1B586CF9005DB1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A1F6A1B586CF9005DB1BA /* UBCAR_v4.xcdatamodeld in Sources */,
+				673EF3C91B5C36830097DF9A /* UBCARMapPoint.m in Sources */,
+				676A1FBC1B58C504005DB1BA /* UBCARListTableViewController.m in Sources */,
+				676A1F671B586CF9005DB1BA /* AppDelegate.m in Sources */,
+				6739CE7E1B5D476300BD6906 /* UBCARTableViewController.m in Sources */,
+				676A1F6D1B586CF9005DB1BA /* ViewController.m in Sources */,
+				676A1FC81B58E152005DB1BA /* UBCARMapViewController.m in Sources */,
+				676A1F641B586CF9005DB1BA /* main.m in Sources */,
+				676A1FC01B58C98B005DB1BA /* UBCARAggregate.m in Sources */,
+				673EF3CC1B5C5F570097DF9A /* UBCARPointViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676A1F761B586CF9005DB1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A1F811B586CF9005DB1BA /* UBCAR_v4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		676A1F7C1B586CF9005DB1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676A1F5D1B586CF9005DB1BA /* UBCAR */;
+			targetProxy = 676A1F7B1B586CF9005DB1BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		676A1F6E1B586CF9005DB1BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676A1F6F1B586CF9005DB1BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		676A1F731B586CF9005DB1BA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				676A1F741B586CF9005DB1BA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		676A1F821B586CF9005DB1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		676A1F831B586CF9005DB1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		676A1F851B586CF9005DB1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+				);
+				INFOPLIST_FILE = "UBCAR v4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.ubc.landfood.biocultural.diversity;
+				PRODUCT_NAME = UBCAR;
+			};
+			name = Debug;
+		};
+		676A1F861B586CF9005DB1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+					"$(PROJECT_DIR)/UBCAR",
+					v4/Frameworks,
+				);
+				INFOPLIST_FILE = "UBCAR v4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.ubc.landfood.biocultural.diversity;
+				PRODUCT_NAME = UBCAR;
+			};
+			name = Release;
+		};
+		676A1F881B586CF9005DB1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UBCAR v4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanCorp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = UBCARTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UBCAR v4.app/UBCAR v4";
+			};
+			name = Debug;
+		};
+		676A1F891B586CF9005DB1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UBCAR v4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NathanCorp.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = UBCARTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UBCAR v4.app/UBCAR v4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676A1F591B586CF9005DB1BA /* Build configuration list for PBXProject "UBCAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676A1F821B586CF9005DB1BA /* Debug */,
+				676A1F831B586CF9005DB1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676A1F841B586CF9005DB1BA /* Build configuration list for PBXNativeTarget "UBCAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676A1F851B586CF9005DB1BA /* Debug */,
+				676A1F861B586CF9005DB1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676A1F871B586CF9005DB1BA /* Build configuration list for PBXNativeTarget "UBCARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676A1F881B586CF9005DB1BA /* Debug */,
+				676A1F891B586CF9005DB1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		676A1F681B586CF9005DB1BA /* UBCAR_v4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				676A1F691B586CF9005DB1BA /* UBCAR_v4.xcdatamodel */,
+			);
+			currentVersion = 676A1F691B586CF9005DB1BA /* UBCAR_v4.xcdatamodel */;
+			path = UBCAR_v4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 676A1F561B586CF9005DB1BA /* Project object */;
+}
